@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DF746825505668006D6AA7 /* SongInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF746725505668006D6AA7 /* SongInfoView.swift */; };
 		37E0801625501DF60003435E /* MusicPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0801525501DF60003435E /* MusicPlayerApp.swift */; };
 		37E0801825501DF60003435E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0801725501DF60003435E /* ContentView.swift */; };
 		37E0801A25501DF70003435E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E0801925501DF70003435E /* Assets.xcassets */; };
 		37E0801D25501DF70003435E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E0801C25501DF70003435E /* Preview Assets.xcassets */; };
 		37E0802825501DF70003435E /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0802725501DF70003435E /* MusicPlayerTests.swift */; };
 		37E0803325501DF70003435E /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0803225501DF70003435E /* MusicPlayerUITests.swift */; };
+		37E0804425501E350003435E /* SongTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0804325501E350003435E /* SongTypeView.swift */; };
+		37E0804925501EB60003435E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0804825501EB60003435E /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37DF746725505668006D6AA7 /* SongInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfoView.swift; sourceTree = "<group>"; };
 		37E0801225501DF60003435E /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E0801525501DF60003435E /* MusicPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerApp.swift; sourceTree = "<group>"; };
 		37E0801725501DF60003435E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		37E0802E25501DF70003435E /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E0803225501DF70003435E /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		37E0803425501DF70003435E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E0804325501E350003435E /* SongTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTypeView.swift; sourceTree = "<group>"; };
+		37E0804825501EB60003435E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				37E0801525501DF60003435E /* MusicPlayerApp.swift */,
 				37E0801725501DF60003435E /* ContentView.swift */,
+				37E0804325501E350003435E /* SongTypeView.swift */,
+				37DF746725505668006D6AA7 /* SongInfoView.swift */,
+				37E0804825501EB60003435E /* Song.swift */,
 				37E0801925501DF70003435E /* Assets.xcassets */,
 				37E0801E25501DF70003435E /* Info.plist */,
 				37E0801B25501DF70003435E /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E0804925501EB60003435E /* Song.swift in Sources */,
 				37E0801825501DF60003435E /* ContentView.swift in Sources */,
+				37DF746825505668006D6AA7 /* SongInfoView.swift in Sources */,
 				37E0801625501DF60003435E /* MusicPlayerApp.swift in Sources */,
+				37E0804425501E350003435E /* SongTypeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
